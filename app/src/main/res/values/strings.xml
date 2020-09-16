@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Texas Lottery</string>
+    <string name="firstLabel">Choose a Lottery:</string>
+    <string name="lotteryLogoDescription">Lottery Logo</string>
+    <string name="noOfPlays">Numbers of Plays to Generate</string>
+    <string name="clearButton">Clear</string>
+    <string name="generateButton">Generate</string>
+    <string name="newGameButton">New Game</string>
+    <string name="resultHeader">Lottery Numbers</string>
+    <string-array name="lottery_games">
+        <item>Power Ball</item>
+        <item>Mega Millions</item>
+        <item>Lotto Texas</item>
+        <item>Texas Two Step</item>
+        <item>All or Nothing</item>
+        <item>Cash Five</item>
+        <item>Pick 3</item>
+        <item>Daily 4</item>
+    </string-array>
+    <string-array name="numberOfPlays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+
+
+    </string-array>
+</resources>

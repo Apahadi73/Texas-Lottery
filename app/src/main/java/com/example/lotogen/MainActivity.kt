@@ -1,18 +1,15 @@
 package com.example.lotogen
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
-import androidx.core.view.get
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.lotogen.databinding.ActivityMainBinding
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
     private lateinit var selectedGame: String;
@@ -36,7 +33,6 @@ class MainActivity : AppCompatActivity() {
             }
             startActivity(intent)
         }
-
     }
 
     //    creates spinner, handles all the operation and returns selected value

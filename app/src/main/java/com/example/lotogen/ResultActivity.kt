@@ -7,7 +7,6 @@ import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.lotogen.databinding.ResultBinding
-import kotlin.properties.Delegates
 import kotlin.random.Random
 
 
